@@ -1,0 +1,31 @@
+总结
+1:CGAffineTransformRotate和CGAffineTransformMakeRotation和区别
+旋转动画
+CGAffineTransformMakeRotation:始终以起始点为标准  旋转对应的角度(旋转一次之后不会再继续旋转)
+CGAffineTransformRotate:以最后一个旋转的角度继续操作
+
+2.
+animationWithKeyPath的值：   关于各种动画更详细的实现
+transform.scale = 比例转换
+transform.rotation = 旋转
+opacity = 透明度
+margin = 边距
+zPosition
+backgroundColor =   背景颜色
+cornerRadius   = 圆角
+borderWidth
+bounds
+contents
+contentsRect
+frame
+hidden
+mask
+masksToBounds
+position = 位置
+shadowColor
+shadowOffset
+shadowOpacity
+shadowRadius
+文／SmallTwo（简书作者）
+原文链接：http://www.jianshu.com/p/8768ce2f9b18
+著作权归作者所有，转载请联系作者获得授权，并标注“简书作者”。

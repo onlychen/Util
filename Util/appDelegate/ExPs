@@ -1,0 +1,36 @@
+/**
+*  平移
+*
+*  @param transform 获取当前的形变 transform
+*  @param tx        沿着 x 水平方向的平移
+*  @param ty        沿着 y 垂直方向的平移
+*
+*  @return 返回移动之后的结果
+*/
+CGAffineTransformTranslate(CGAffineTransform t, CGFloat tx, CGFloat ty)
+
+/**
+*  缩放
+*
+*  @param transform 获取当前的形变 transform
+*  @param sx       水平方向缩放比例
+*  @param sy       垂直方向缩放比例
+*
+*  @return 缩放后结果
+*/
+CGAffineTransformScale(CGAffineTransform t, CGFloat sx, CGFloat sy)
+
+/**
+*  旋转
+*
+*  @param transform 获取当前的形变 transform
+*  @param angle     旋转角度
+*
+*  @return 返回旋转后的结果
+*/
+CGAffineTransformRotate(CGAffineTransform t, CGFloat angle)
+
+/**
+*  还原
+*/
+CGAffineTransformIdentity
